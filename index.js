@@ -7,7 +7,7 @@ app.use(express.urlencoded({ extended: false }));
 const dotenv = require('dotenv');
 dotenv.config();
 
-const db = require('./dbConfig');
+const db = require('./DBConfig');
 
 
 
